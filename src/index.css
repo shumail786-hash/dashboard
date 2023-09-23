@@ -17,7 +17,12 @@ button {
   outline: none;
   border: none;
 }
-
+input {
+  outline: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: 90%;
+}
 :root {
   --font-white-color: #fff;
   --light-backgound-color: #fff;
@@ -25,9 +30,16 @@ button {
   --shadow-color: rgba(29, 28, 28, 0.828);
   --side-bar-color: rgb(77, 93, 153);
   --sidebar-nactive-color: #c5c5c9;
+  --skyblue: skyblue;
+  --green: #29ab91;
+  --darknavy: #405089;
   --active-background-color: rgba(179, 177, 177, 0.555);
   --sidebar-active-color: #fff;
   --font-secondary-color: rgb(255, 117, 85);
+  --stats-total-sales: #ff7555;
+  --search-bar-color: #eff3fc;
+  --dark-searchbar-color: #333a45;
+  --stats-card-color: rgba(241, 241, 241, 0.448);
   --heavy-weight: 900;
   --normal-weight: 400;
   --light-weight: 100;

@@ -11,8 +11,8 @@
   font-size: 1.2rem;
 }
 .sidebar__logo {
-  padding-left: 2rem;
-  /* width: fit-content; */
+  margin-left: 2rem;
+  width: fit-content;
   /* border: 1px solid white; */
 }
 .logo span:nth-child(2) {
@@ -23,10 +23,8 @@
   outline: none;
 }
 .sidebar__menus {
-  /* margin: 1rem 0rem; */
   padding: 0rem 2rem;
   width: 100%;
-  /* border: 1px solid white; */
 }
 .sidebar__menus ul {
   padding: 1rem 0rem;

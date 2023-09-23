@@ -1,0 +1,74 @@
+.stats__container {
+  margin: 1.5rem 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.3rem;
+}
+.stats__card {
+  padding: 1rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffad9b36;
+  border-radius: 10px;
+}
+.stats__card:nth-child(1),
+.stats__card:nth-child(2),
+.stats__card:nth-child(3),
+.stats__card:nth-child(4) {
+  background-color: var(--stats-card-color);
+}
+.stats__dark_card:nth-child(1),
+.stats__dark_card:nth-child(2),
+.stats__dark_card:nth-child(3),
+.stats__dark_card:nth-child(4) {
+  background-color: var(--dark-searchbar-color) !important;
+  color: var(--font-white-color);
+}
+
+.stats__card:nth-child(2) .stats__icon_circle {
+  background-color: var(--skyblue);
+}
+.stats__card:nth-child(3) .stats__icon_circle {
+  background-color: var(--green);
+}
+.stats__card:nth-child(4) .stats__icon_circle {
+  background-color: var(--darknavy);
+}
+.stats__icon_circle {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid;
+  color: white;
+  background-color: var(--stats-total-sales);
+}
+.stats__details {
+  text-align: center;
+}
+.stats__details p:nth-child(1) {
+  padding-top: 1rem;
+  font-weight: var(--normal-weight);
+}
+.stats__details p:nth-child(2) {
+  font-size: 0.6rem;
+  color: grey;
+}
+.stats__details h3 {
+  padding-top: 1rem;
+}
+.stats__dark_card:nth-child(1) .stats__details h3 {
+  color: var(--font-secondary-color);
+}
+.stats__dark_card:nth-child(2) .stats__details h3 {
+  color: var(--skyblue);
+}
+.stats__dark_card:nth-child(3) .stats__details h3 {
+  color: var(--green);
+}
+.stats__dark_card:nth-child(4) .stats__details h3 {
+  color: var(--darknavy);
+}

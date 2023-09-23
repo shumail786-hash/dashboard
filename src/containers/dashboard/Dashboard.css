@@ -1,4 +1,58 @@
-.app__dashboard {
+.dashboard {
   border: 1px solid;
   grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard_darktheme {
+  background-color: var(--dark-background-color) !important;
+}
+.app__dashboard {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  height: fit-content;
+  background-color: var(--light-backgound-color);
+}
+.app__dashboard_darktheme {
+  background-color: var(--dark-background-color) !important;
+}
+.dashboard__search {
+  height: fit-content;
+  background-color: var(--search-bar-color);
+  width: 85%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard__search_dark {
+  background-color: var(--dark-searchbar-color);
+}
+.dashboard__search_bar {
+  background: var(--search-bar-color);
+  border: transparent;
+}
+.dashboard__searchbar_dark {
+  background-color: var(--dark-searchbar-color);
+  color: var(--sidebar-nactive-color);
+}
+.dashboard__search_icon {
+  color: var(--sidebar-nactive-color);
+  cursor: pointer;
+}
+.dashboard__theme_switcher {
+  cursor: pointer;
+  height: fit-content;
+  padding: 0.4rem;
+  background-color: var(--search-bar-color);
+  width: 10%;
+  text-align: center;
+  border-radius: 10px;
+}
+.dashboard__theme_switcher_darkr {
+  background-color: var(--dark-searchbar-color);
+  color: var(--sidebar-active-color);
 }
