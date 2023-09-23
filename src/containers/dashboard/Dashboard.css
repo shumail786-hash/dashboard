@@ -1,0 +1,4 @@
+.app__dashboard {
+  border: 1px solid;
+  grid-column: span 2;
+}

@@ -1,0 +1,92 @@
+.app__sidebar {
+  background: var(--side-bar-color);
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  color: var(--sidebar-active-color);
+  letter-spacing: 0.01rem;
+  font-weight: var(--normal-weight);
+  font-size: 1.2rem;
+}
+.sidebar__logo {
+  padding-left: 2rem;
+  /* width: fit-content; */
+  /* border: 1px solid white; */
+}
+.logo span:nth-child(2) {
+  color: var(--font-secondary-color);
+}
+.sidebar__logo_link {
+  border: none;
+  outline: none;
+}
+.sidebar__menus {
+  /* margin: 1rem 0rem; */
+  padding: 0rem 2rem;
+  width: 100%;
+  /* border: 1px solid white; */
+}
+.sidebar__menus ul {
+  padding: 1rem 0rem;
+}
+.sidebar__menus ul > li {
+  cursor: pointer;
+  margin: 1rem 0rem;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: var(--normal-weight);
+  color: var(--sidebar-nactive-color);
+}
+.sidebar__menus ul > li:nth-child(1),
+li:nth-child(5),
+li:nth-child(9) {
+  font-weight: var(--heavy-weight) !important;
+  letter-spacing: 0.01rem;
+  font-size: 1rem !important;
+  cursor: auto !important;
+  color: var(--sidebar-active-color) !important;
+}
+.sidebar__icons {
+  margin-top: 1px;
+  margin-right: 0.2rem;
+}
+.active {
+  color: var(--font-white-color) !important;
+  background-color: var(--active-background-color);
+  border-radius: 4px;
+  padding: 0.4rem;
+}
+.sidebar__user {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 2rem;
+  width: 11.7rem;
+  padding: 1rem 0rem;
+  border-radius: 10px;
+  background-color: var(--font-secondary-color);
+}
+.user__background_photo {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+.user__background_photo img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.user__designation p {
+  color: var(--font-white-color);
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  font-family: calibri;
+  font-weight: var(--heavy-weight);
+}
+.user__designation p:nth-child(2) {
+  font-weight: var(--light-weight);
+  font-size: 0.7rem;
+}
